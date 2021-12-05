@@ -2,8 +2,12 @@ import requests
 import numpy as np
 from dictionary import lmdict
 from classification import countWords
-from textblob import TextBlob
 from deep_translator import (GoogleTranslator)
+from textblob.classifiers import NaiveBayesClassifier
+from csvConverter import converterCSVToTextBlob
+
+train = converterCSVToTextBlob()
+classifier = NaiveBayesClassifier(train)
 
 translator = GoogleTranslator(source='pt', target='en')
 
@@ -32,11 +36,13 @@ for article in articles:
     description = article['description']
     content = article['content']
 
-    text = title + " " + description + " " + content
-
-    translation = translator.translate(text=title + " " + description)
-    print(title + " " + description)
-    print(TextBlob(translation).sentiment)
+    text = title + " " + description
+    translation = translator.translate(text=text)
+    print(text)
+    prob_dist = classifier.prob_classify(translation)
+    pos_prob = round(prob_dist.prob("pos"), 2)
+    neg_prob = round(prob_dist.prob("neg"), 2)
+    print(prob_dist.max(), "pos_prob: ", pos_prob, "neg_prob: ", neg_prob)
 
     positiveCount, negativeCount, positiveWords, negativeWords = countWords(
         lmdict, text)
