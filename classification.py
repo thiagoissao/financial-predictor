@@ -1,77 +1,55 @@
 import re
-from pathlib import Path
-from dictionary import lmdict, negate
+from dictionary import negate
+from unidecode import unidecode
 
 
-def negated(word):
-    """
-    Determine if preceding word is a negation word
-    """
+def isNot(word):
     if word.lower() in negate:
         return True
     else:
         return False
 
 
-def tone_count_with_negation_check(dict, article):
-    """
-    Count positive and negative words with negation check. Account for simple negation only for positive words.
-    Simple negation is taken to be observations of one of negate words occurring within three words
-    preceding a positive words.
-    """
-    pos_count = 0
-    neg_count = 0
+def countWords(dictionary, text):
+    positiveCount = 0
+    negativeCount = 0
 
-    pos_words = []
-    neg_words = []
+    positiveWords = []
+    negativeWords = []
 
     input_words = re.findall(
-        r'\b([a-zA-Z]+n\'t|[a-zA-Z]+\'s|[a-zA-Z]+)\b', article.lower())
+        r'\b([a-zA-Z]+n\'t|[a-zA-Z]+\'s|[a-zA-Z]+)\b', unidecode(text).lower())
 
     word_count = len(input_words)
 
     for i in range(0, word_count):
-        if input_words[i] in dict['Negative']:
-            neg_count += 1
-            neg_words.append(input_words[i])
-        if input_words[i] in dict['Positive']:
+        if unidecode(input_words[i]) in dictionary['Negative']:
+            negativeCount += 1
+            negativeWords.append(input_words[i])
+        if unidecode(input_words[i]) in dictionary['Positive']:
             if i >= 3:
-                if negated(input_words[i - 1]) or negated(input_words[i - 2]) or negated(input_words[i - 3]):
-                    neg_count += 1
-                    neg_words.append(input_words[i] + ' (with negation)')
+                if isNot(input_words[i - 1]) or isNot(input_words[i - 2]) or isNot(input_words[i - 3]):
+                    negativeCount += 1
+                    negativeWords.append(input_words[i] + ' (with negation)')
                 else:
-                    pos_count += 1
-                    pos_words.append(input_words[i])
+                    positiveCount += 1
+                    positiveWords.append(input_words[i])
             elif i == 2:
-                if negated(input_words[i - 1]) or negated(input_words[i - 2]):
-                    neg_count += 1
-                    neg_words.append(input_words[i] + ' (with negation)')
+                if isNot(input_words[i - 1]) or isNot(input_words[i - 2]):
+                    negativeCount += 1
+                    negativeWords.append(input_words[i] + ' (with negation)')
                 else:
-                    pos_count += 1
-                    pos_words.append(input_words[i])
+                    positiveCount += 1
+                    positiveWords.append(input_words[i])
             elif i == 1:
-                if negated(input_words[i - 1]):
-                    neg_count += 1
-                    neg_words.append(input_words[i] + ' (with negation)')
+                if isNot(input_words[i - 1]):
+                    negativeCount += 1
+                    negativeWords.append(input_words[i] + ' (with negation)')
                 else:
-                    pos_count += 1
-                    pos_words.append(input_words[i])
+                    positiveCount += 1
+                    positiveWords.append(input_words[i])
             elif i == 0:
-                pos_count += 1
-                pos_words.append(input_words[i])
+                positiveCount += 1
+                positiveWords.append(input_words[i])
 
-    print('The results with negation check:', end='\n\n')
-    print('The # of positive words:', pos_count)
-    print('The # of negative words:', neg_count)
-    print('The list of found positive words:', pos_words)
-    print('The list of found negative words:', neg_words)
-    print('\n', end='')
-
-    results = [word_count, pos_count, neg_count, pos_words, neg_words]
-
-    return results
-
-
-news = Path('news/2.txt').read_text()
-
-tone_count_with_negation_check(lmdict, news)
+    return (positiveCount, negativeCount, positiveWords, negativeWords)

@@ -1,0 +1,286 @@
+
+
+
+B3 inaugura tourinho de ouro e bolsa fecha em… queda VEJA Mercado: escultura não traz sorte e Ibovespa cai após dados econômicos que desagradaram os investidores
+Sentiment(polarity=0.2, subjectivity=0.2)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  2
+
+
+
+Desnorteado, mercado financeiro busca direção após PEC dos Precatórios VEJA Mercado: ainda com o assunto “teto de gastos” engasgado, bolsa negociou com volatilidade ao longo da semana
+Sentiment(polarity=0.0, subjectivity=0.0)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  1
+
+
+
+Ômicron faz todas as ações do Ibovespa caírem e dólar subir VEJA Mercado: investidores entram em pânico diante de nova cepa descoberta na África
+Sentiment(polarity=0.13636363636363635, subjectivity=0.45454545454545453)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  2
+
+
+
+A “boa notícia” nos mercados após a nova variante da Covid VEJA Mercado: diante do caos, juros futuros caem e analistas esperam alívio na inflação
+Sentiment(polarity=0.27878787878787875, subjectivity=0.39318181818181824)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  3
+
+
+
+Em sessão volátil, bolsa se desgruda do externo e volta aos 105 mil pontos VEJA Mercado: pregão foi marcado por recuperação de papéis do varejo e construção, enquanto frigoríficos patinaram em meio ao receio de piora nas margens
+Sentiment(polarity=0.0, subjectivity=0.1)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  2
+
+
+
+Perspectiva de Auxílio Brasil antes do Natal faz varejo subir na bolsa VEJA Mercado: PEC dos Precatórios dividida em etapas pode antecipar pagamento do benefício; varejistas voltam a subir após sucessivas quedas
+Sentiment(polarity=0.0, subjectivity=0.0)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  1
+
+
+
+PEC dos Precatórios e minério de ferro pesam e bolsa cai; dólar sobe VEJA Mercado: incertezas em relação a possíveis no mudanças no texto trazem ainda mais incerteza aos investidores; minério tem pior cotação em um ano
+Sentiment(polarity=-0.16666666666666666, subjectivity=0.8333333333333334)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  5
+
+
+
+Por que a bolsa está pessimista com Via e Magalu e otimista com Americanas VEJA Mercado: resultados das companhias tiveram diferentes interpretações dos analistas
+Sentiment(polarity=0.0, subjectivity=0.6)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  1
+
+
+
+Petrobras dispara e bolsa tem maior alta desde maio de 2020 VEJA Mercado: Decisão da Opep influenciou papel da estatal, além disso PEC dos Precatórios também influenciou
+Sentiment(polarity=0.0, subjectivity=0.0)
+Quantidade de palavras positivas =>  6
+Quantidade de palavras negativas =>  0
+
+
+
+Imposto perdido para paraísos fiscais bancaria Auxílio Brasil de R$ 400, diz estudo Brasil deixou de arrecadar mais de R$ 44 bilhões em impostos não pagos por multinacionais e milionários somente em 2020, revela estudo da Rede de Justiça Fiscal.
+Sentiment(polarity=0.06666666666666667, subjectivity=0.4000000000000001)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  1
+
+
+
+Ibovespa recua a menor nível do ano Queda de 2,09% leva índice aos 103 mil pontos, em dia marcado por PEC dos Precatórios O Ibovespa não tem encontrado facilidade para deixar os menores patamares observados em 2021. No pregão de ontem, em meio às incertezas relacionadas à aprovação da PEC dos P…
+Sentiment(polarity=0.17777777777777778, subjectivity=0.6111111111111112)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  3
+
+
+
+Rebalanceamento do Ibovespa deve abrigar Positivo Ação da empresa de tecnologia é apontada por analistas como provável candidata a entrar na composição do índice Enquanto a B3 trabalha na primeira prévia da carteira teórica do Ibovespa para o trimestre inicial de 2022, ganham força no mercado as apostas de e…
+Sentiment(polarity=0.0625, subjectivity=0.35833333333333334)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  0
+
+
+
+Ibovespa volta para os 100 mil pontos Discurso duro do Fed e temor renovado com variante de covid levam índice a patamar de um ano atrás Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro.
+Sentiment(polarity=0.175, subjectivity=0.275)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  0
+
+
+
+Ibovespa sobe; investidores acompanham PEC dos Precatórios Merece avaliação ainda o desempenho da economia brasileira no terceiro trimestre O Ibovespa encontrava espaço nesta quinta-feira para ensaiar recuperação técnica, após fechar a sessão anterior no patamar mais baixo do ano. Investidores digeriam a leitura do P…
+Sentiment(polarity=-0.05555555555555555, subjectivity=0.08888888888888889)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  2
+
+
+
+Ibovespa fecha em queda pressionado por Fed e incertezas locais Em linha com outros ativos de mercados emergentes, o Ibovespa fechou o dia em queda, pressionado por declarações mais duras do presidente do Federal Reserve (Fed) de St. Louis, James Bullard em relação à retirada de estímulos monetários.
+
+Já pressionado pelo …
+Sentiment(polarity=-0.075, subjectivity=0.15833333333333333)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  4
+
+
+
+BofA: Gestores mostram pessimismo com Ibovespa e preocupação com uma recessão no Brasil Pesquisa mensal elaborada pelo Bank of America com gestores mostra que apenas 31% dos entrevistados veem o Ibovespa acima de 120 mil pontos no fim do próximo ano O sentimento dos gestores de fundos com o desempenho do Ibovespa se tornou mais negativo e preocu…
+Sentiment(polarity=0.04, subjectivity=0.4)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  2
+
+
+
+Ibovespa opera em alta com investidores monitorando dados de inflação Expectativa de uma política monetária mais dura adiante, que possa fazer frente às pressões de preços, reduz o apetite dos investidores por ativos de risco Os dados de inflação bem acima das expectativas, tanto no Brasil como nos Estados Unidos, reforçam a po…
+Sentiment(polarity=0.0, subjectivity=0.1)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  0
+
+
+
+Sem Wall Street, Ibovespa tem dia de alta Ações da Petrobras ajudaram índice a subir; dólar desvalorizou 0,54%, para fechar a R$ 5,565 Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro.
+Sentiment(polarity=0.35, subjectivity=0.55)
+Quantidade de palavras positivas =>  3
+Quantidade de palavras negativas =>  2
+
+
+
+Ibovespa opera em alta com mercado digerindo dados de inflação Resultado do IPCA-15 ganha atenção ao lado de cenário fiscal O Ibovespa exibe viés de alta nos primeiros negócios desta quinta-feira, em pregão marcado até aqui por nova alta do IPCA-15, considerado a prévia da inflação, e uma possível melhora no cenário fisc…
+Sentiment(polarity=0.12439393939393939, subjectivity=0.6546464646464646)
+Quantidade de palavras positivas =>  7
+Quantidade de palavras negativas =>  0
+
+
+
+Ibovespa fecha em alta com ajuda de commodities Com os investidores aguardando mais informações sobre a variante ômicron do novo coronavírus, o Ibovespa teve um dia de recuperação parcial e encerrou o pregão em alta. Após ajustes, o índice encerrou com ganhos de 0,58%, aos 102.814,03 pontos, relativamente …
+Sentiment(polarity=0.13927272727272727, subjectivity=0.3589090909090909)
+Quantidade de palavras positivas =>  4
+Quantidade de palavras negativas =>  0
+
+
+
+Ibovespa fecha em alta de 0,58%, aos 105.069,69 pontos Pressionado pela queda das ações em Nova York e pelo desempenho ruim dos papéis da Vale, siderúrgicas e frigoríficos, o Ibovespa devolveu boa parte dos ganhos robustos apresentados ao longo do dia, mas conseguiu terminar o pregão em alta, anotando sua melhor …
+Sentiment(polarity=0.31927272727272726, subjectivity=0.49890909090909086)
+Quantidade de palavras positivas =>  5
+Quantidade de palavras negativas =>  4
+
+
+
+Ibovespa fecha em queda e volta ao patamar de novembro de 2020 Preocupa os agentes a descoberta de um caso da variante ômicron nos Estados Unidos O Ibovespa até começou a sessão de hoje em alta, mas não resistiu ao noticiário negativo vindo dos Estados Unidos e voltou a fechar os negócios renovando sua mínima anual e vol…
+Sentiment(polarity=-0.06999999999999999, subjectivity=0.47)
+Quantidade de palavras positivas =>  2
+Quantidade de palavras negativas =>  5
+
+
+
+Ibovespa fecha em alta à espera da votação da PEC dos Precatórios Em um dia marcado pela espera dos agentes financeiros com a votação da PEC dos Precatórios, o Ibovespa aproveitou o alívio no mercado de renda fixa e fechou o dia em alta de 0,72%, aos 105.535,08 pontos, após ter marcado 106.674 pontos, nas máximas intradiári…
+Sentiment(polarity=0.052000000000000005, subjectivity=0.288)
+Quantidade de palavras positivas =>  3
+Quantidade de palavras negativas =>  0
+
+
+Bolsa e câmbio têm dia de recuperação Dólar recuou para R$ 5,404, menor nível em mais de um mês; Ibovespa registra alta de 1,54% Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro.
+Sentiment(polarity=0.425, subjectivity=0.525)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  0
+
+
+
+Ibovespa renova mínima do ano e fecha 5º mês de perdas No dia, índice fechou em queda afetado pelas preocupações com a variante ômicron do novo coronavírus e com as declarações do presidente do Fed O Ibovespa não resistiu ao novo dia de tensão nos mercados globais e fechou em queda, diante do aumento das preocupa…
+Sentiment(polarity=0.012121212121212116, subjectivity=0.23484848484848486)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  4
+
+
+
+Ibovespa tem leve alta, mas cautela permanece com variante do coronavírus Investidores acompanham cena externa e dúvidas sobre eficácia da vacina contra nova cepa O Ibovespa apresentava ligeira alta no fim desta manhã de terça-feira, após abrir no campo negativo. Os investidores olham os mercados globais, reforçando seus temores em…
+Sentiment(polarity=-0.11385281385281384, subjectivity=0.26969696969696966)
+Quantidade de palavras positivas =>  3
+Quantidade de palavras negativas =>  4
+
+
+
+Magalu e Via sofrem pela falta de visibilidade do setor de bens duráveis em 2022 No ano, as ações de Magazine perdem 72% de valor, a maior queda do Ibovespa, enquanto as da Via acumulam retração de 68% Os papéis das varejistas de eletroeletrônicos Magazine Luiza e Via operam em alta recuperando parte da forte queda dos papéis ontem. No an…
+Sentiment(polarity=0.0175, subjectivity=0.645)
+Quantidade de palavras positivas =>  6
+Quantidade de palavras negativas =>  5
+
+
+
+Investidores estrangeiros ingressam com R$ 620 mi na Bolsa em 29 de novembro Fluxo de capital externo no mês é positivo em R$ 2,2 bilhões, com acumulado anual de R$ 56,9 bilhões Os investidores estrangeiros ingressaram com R$ 620,1 milhões em recursos no segmento secundário da B3 (ações já listadas) no dia 29 de novembro, quando o Ibo…
+Sentiment(polarity=-0.08954545454545455, subjectivity=0.24409090909090908)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  0
+
+
+
+Touro da B3 vira meme com Ibovespa em queda de 1,82% Com o Ibovespa rondando seus menores níveis no ano, a inauguração da escultura do "Touro de Ouro" em frente à sede da B3, no centro de São Paulo, não demorou para se transformar em memes nas redes sociais e entre profissionais de mercado. Para além do "timing…
+Sentiment(polarity=0.031944444444444435, subjectivity=0.31388888888888894)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  1
+
+
+
+Ibovespa opera instável com atividade fraca no país e sem novidades sobre precatórios O Ibovespa até operou em alta nos primeiros minutos do pregão desta terça-feira, mas logo ganhou contorno mais volátil. Investidores digeriam a fraca leitura do IBC-Br, dado considerado a prévia do PIB, para setembro e aguardavam novidades sobre o avanço da P…
+Sentiment(polarity=0.03200000000000001, subjectivity=0.5246666666666666)
+Quantidade de palavras positivas =>  2
+Quantidade de palavras negativas =>  0
+
+
+
+Ibovespa tem forte queda com temor global por nova variante do coronavírus O pregão foi marcado por uma ampla aversão a ativos de risco, que derrubou os preços do petróleo e desencadeou um forte movimento de vendas nas ações locais. O mesmo comportamento das ações aconteceu nas principais praças europeias e com os índices americanos…
+Sentiment(polarity=0.06808080808080806, subjectivity=0.253510101010101)
+Quantidade de palavras positivas =>  4
+Quantidade de palavras negativas =>  1
+
+
+
+Estrangeiros sacaram R$ 118,7 milhões da Bolsa em 9 de novembro Com isso, o fluxo de capital externo no mês é positivo em R$ 2,32 bilhões, com acumulado anual de R$ 57,02 bilhões Os investidores estrangeiros sacaram R$ 118,7 milhões em recursos no segmento secundário da B3 (ações já listadas) no dia 9 de novembro, quando …
+Sentiment(polarity=-0.08068181818181819, subjectivity=0.27386363636363636)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  0
+
+
+
+Estrangeiros aportam R$ 731,6 mi na Bolsa em 16 de novembro No mesmo dia, o investidor pessoa física aportou R$ 623,8 milhões líquidos na B3 Os investidores estrangeiros aportaram R$ 731,6 milhões em recursos no segmento secundário da B3 (ações já listadas) na terça-feira, 16 de novembro, dia em que o Ibovespa fechou …
+Sentiment(polarity=-0.08750000000000001, subjectivity=0.17500000000000002)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  1
+
+
+
+Estrangeiros ingressam com R$ 132 mi na Bolsa em 22 de novembro Superávit mensal atinge de R$ 3,08 bilhões e no acumulado do ano, R$ 57,786 Os investidores estrangeiros ingressaram com R$ 132 milhões em recursos no segmento secundário da B3 (ações já listadas) na segunda-feira, dia 22 de novembro, dia em que o Ibovespa fe…
+Sentiment(polarity=-0.2125, subjectivity=0.2125)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  1
+
+
+Morning Call Safra: Bolsa registra forte valorização Ibovespa subiu após aprovação da PEC dos precatórios No Morning Call do Safra desta sexta-feira, comentamos a reação do mercado à aprovação da PEC dos Precatórios.
+No segundo bloco, falamos sobre o desempenho da economia brasileira no 3º trimestre.
+Quer receb…
+Sentiment(polarity=0.2583333333333333, subjectivity=0.4208333333333333)
+Quantidade de palavras positivas =>  1
+Quantidade de palavras negativas =>  0
+
+
+
+Como robôs de investimentos usam algoritmos para negociar ações Os analistas automatizados negociam ações com investimento inicial de R$ 1 e, obviamente, nada que interfira no mercado os afeta Os algoritmos estão por toda parte. Se você acessou esta matéria pelas redes sociais, um deles foi o responsável por colocar o con…
+Sentiment(polarity=0.07777777777777778, subjectivity=0.20555555555555557)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  0
+
+
+
+Como investir com base em metas usando o método GBI O goal based investing (GBI) propõe uma nova forma de olhar para os investimentos, na qual o foco não é a rentabilidade Final de ano chegando e, com ele, a hora de rever as metas alcançadas (ou não) e fazer uma nova lista. Com os investimentos não poderia ser…
+Sentiment(polarity=0.13636363636363635, subjectivity=0.45454545454545453)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  0
+
+
+
+Touro de Ouro da B3 é alvo de protesto contra a fome O Touro de Ouro instalado em frente à B3 não durou um dia sem ser alvo de protestos O Touro de Ouro instalado em frente à B3 não durou um dia sem ser alvo de protestos. Na manhã desta quarta-feira, ativistas se reuniram para colar na peça um cartaz (um lambe-…
+Sentiment(polarity=0.18, subjectivity=0.32666666666666666)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  4
+
+
+
+Ibovespa cai e renova menor fechamento do ano com receios sobre Ômicron O Ibovespa caiu nesta quarta-feira e renovou o menor patamar de fechamento do ano, diante de desempenho negativo das bolsas norte-americanas após a...
+Sentiment(polarity=-0.2125, subjectivity=0.3875)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  5
+
+
+
+Ibovespa fecha quase estável com Vale contrabalançando receios sobre PEC dos Precatórios O Ibovespa fechou quase estável nesta segunda-feira, tendo trocado de sinal algumas vezes durante o pregão, com preocupações relacionadas ao avanço da PEC ...
+Sentiment(polarity=-0.10000000000000002, subjectivity=0.20000000000000004)
+Quantidade de palavras positivas =>  0
+Quantidade de palavras negativas =>  0
+
+
+Total de palavras positivas:  54
+Total de palavras negativas:  66
