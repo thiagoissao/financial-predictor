@@ -2,7 +2,7 @@ from pandas_datareader import data as web
 import datetime
 import numpy as np
 
-WEEK_DAYS = 7
+WEEK_DAYS = 40
 
 
 def getLastStockPrice():
@@ -18,9 +18,14 @@ def getLastStockPrice():
     opens = np.array(df['Open'])
     closes = np.array(df['Close'])
 
-    lastOpen = opens[len(opens) - 1]
-    lastClose = closes[len(closes) - 1]
-    return(lastOpen, lastClose)
+    variations = []
+    for i in range(len(opens)):
+        variations.append((closes[i] - opens[i]) / opens[i])
+
+    return(opens[len(opens)-7:len(opens)], closes[len(closes)-7:len(closes)], variations[len(closes)-7:len(closes)])
 
 
-print(getLastStockPrice())
+opens, closes, variations = getLastStockPrice()
+print(opens)
+print(closes)
+print(variations)
