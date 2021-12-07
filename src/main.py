@@ -1,9 +1,11 @@
 import requests
 import numpy as np
+import datetime
+import pandas as pd
 from deep_translator import (GoogleTranslator)
+from stockPrice import getStockDetails
 from textblob.classifiers import NaiveBayesClassifier
 from csvConverter import converterCSVToTextBlob
-import datetime
 
 
 def getArticles():
@@ -24,10 +26,10 @@ def getArticles():
     response = requests.get(url)
     page1 = response.json()['articles']
 
-    response = requests.get(url + '&page=2')
-    page2 = response.json()['articles']
+    # response = requests.get(url + '&page=2')
+    # page2 = response.json()['articles']
 
-    return np.concatenate((page1, page2))
+    return np.concatenate((page1, []))
 
 
 def formatArticles(articles):
@@ -64,5 +66,25 @@ articles = getArticles()
 formattedArticles = formatArticles(articles)
 sortedArticles = np.array(sorted(formattedArticles))
 
-pos_probs = sortedArticles[:, 3]
-print(pos_probs)
+posProbs = np.float32(sortedArticles[:, 3])
+opens, closes, variations = getStockDetails()
+
+dataframe = []
+for i in range(20):
+    print('forr', variations[i], posProbs[i])
+    dataframe.append((variations[i], posProbs[i]))
+
+dataframe = np.array(dataframe)
+print('dataframe', dataframe)
+
+
+def histogram_intersection(a, b):
+    v = np.minimum(a, b).sum().round(decimals=1)
+    return v
+
+
+df = pd.DataFrame(dataframe, columns=['variations', 'news'])
+
+corr = df.corr()
+
+print('\n\n', corr)
