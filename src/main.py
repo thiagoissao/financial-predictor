@@ -1,7 +1,9 @@
 import requests
 import numpy as np
 import datetime
-import pandas as pd
+import graphs
+import constants
+from correlation import generateCorrelationForStocks
 from deep_translator import (GoogleTranslator)
 from stockPrice import getStockDetails
 from textblob.classifiers import NaiveBayesClassifier
@@ -9,9 +11,8 @@ from csvConverter import converterCSVToTextBlob
 
 
 def getArticles():
-    WEEK_DAYS = 7
     startDate = (datetime.datetime.now() -
-                 datetime.timedelta(days=WEEK_DAYS)).strftime("%Y-%m-%d")
+                 datetime.timedelta(days=constants.WEEK_DAYS)).strftime("%Y-%m-%d")
     endDate = datetime.datetime.now().strftime("%Y-%m-%d")
 
     url = ('https://newsapi.org/v2/everything?'
@@ -66,25 +67,12 @@ articles = getArticles()
 formattedArticles = formatArticles(articles)
 sortedArticles = np.array(sorted(formattedArticles))
 
-posProbs = np.float32(sortedArticles[:, 3])
-opens, closes, variations = getStockDetails()
+positiveProbabilityNews = np.float32(sortedArticles[:, 3])
+variations = getStockDetails()
 
-dataframe = []
-for i in range(20):
-    print('forr', variations[i], posProbs[i])
-    dataframe.append((variations[i], posProbs[i]))
-
-dataframe = np.array(dataframe)
-print('dataframe', dataframe)
-
-
-def histogram_intersection(a, b):
-    v = np.minimum(a, b).sum().round(decimals=1)
-    return v
-
-
-df = pd.DataFrame(dataframe, columns=['variations', 'news'])
-
-corr = df.corr()
-
-print('\n\n', corr)
+graphs.createGraph('Variações das ações', 'Dia da ação',
+                   'Variação(%)', np.array(variations) * 100)
+graphs.createGraph('Variações das notícias', 'Dia da notícia',
+                   'Probabilidade da notícia ser positiva(%)', np.array(positiveProbabilityNews) * 100)
+graphs.createGraph('Gráfico de Correlação', 'Correlação', 'Valor obtido da correlação',
+                   np.array(generateCorrelationForStocks(variations, positiveProbabilityNews)) * 100)
