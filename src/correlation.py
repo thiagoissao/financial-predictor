@@ -61,6 +61,3 @@ def generateCorrelationForStocks(variations, news):
         corr = np.corrcoef(news, np.take(variations, range))
         corrs.append(corr[0][1])
     return corrs
-
-
-print(generateCorrelationForStocks(variations, news))

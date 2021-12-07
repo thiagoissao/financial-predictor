@@ -22,13 +22,9 @@ def getArticles():
            'from='+startDate+'&'
            'to='+endDate+'&'
            'apiKey=04f7c388507549e0984bf138d88af82e')
-    print(url)
 
     response = requests.get(url)
     page1 = response.json()['articles']
-
-    # response = requests.get(url + '&page=2')
-    # page2 = response.json()['articles']
 
     return np.concatenate((page1, []))
 

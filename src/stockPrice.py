@@ -19,7 +19,3 @@ def getStockDetails():
         variations.append((closes[i] - opens[i]) / opens[i])
 
     return variations[len(closes)-constants.NUMBER_OF_VARIATIONS:len(closes)]
-
-
-variations = getStockDetails()
-print(variations, len(variations))
